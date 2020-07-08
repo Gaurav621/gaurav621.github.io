@@ -8,7 +8,7 @@ body:after {
     top: 0;
     left: 0;
     z-index: 9999;
-    background-color: #ec407a;
+    background-color: rgba(7, 7, 7, 0.94);;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
     opacity: 0.96;
     display: none;
@@ -164,6 +164,7 @@ body:after {
   color: #ccc;
 }
 
+
 .lb-data .lb-details {
   width: 85%;
   float: left;
@@ -176,6 +177,15 @@ body:after {
     line-height: 1.8em;
     color: #fff;
 }
+
+.lb-data .lb-link {
+  display: block;
+  clear: left;
+  padding-top: 1em;
+  font-size: 14px;
+  color: #ffffff;
+} 
+
 .lb-data .lb-number {
     display: block;
     clear: left;

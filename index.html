@@ -11,9 +11,10 @@
 	<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
 	<link rel="stylesheet" href="css/lightbox.css">
 	<script src="js/jquery-2.2.3.min.js"></script>
-	<link href='https://fonts.googleapis.com/css?family=Text+Me+One' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic'
+	<link href='//fonts.googleapis.com/css?family=Text+Me+One' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic'
 		rel='stylesheet' type='text/css'>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -47,7 +48,7 @@
 		</div>
 	</div>
 
-	<div class="video" data-vide-bg="images/bg5">
+	<div class="video">
 		<div class="container">
 			<div class="banner-text agileinfo-text">
 				<h1>Gaurav Pandey</h1>
@@ -193,9 +194,18 @@
 							</div>
 							<div class="experience-right">
 								<h4>Software Engineer</h4>
-								<p>reiciendis maiores alias Lorem
-									ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum iaculis enim, non
-									convallis felis mattis at</p>
+								<ul>
+									<li>
+										<p>Create the whole application from scratch.</p>
+									</li>
+									<li>
+										<p>Wrote the algorithms for efficient
+											searching and parsing the data</p>
+									</li>
+									<li>
+										<p>Create webservice for providing the result data in various formats.</p>
+									</li>
+								</ul>
 							</div>
 							<div class="clearfix"> </div>
 						</div>
@@ -206,9 +216,18 @@
 							</div>
 							<div class="experience-right">
 								<h4>Software Engineer</h4>
-								<p>Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias Lorem
-									ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum iaculis enim, non
-									convallis felis mattis at</p>
+								<ul>
+									<li>
+										<p>Migrate the application from monolith to microservices, and make it cloud
+											agnostic.</p>
+									</li>
+									<li>
+										<p>Dockerize the existing application into smaller components.</p>
+									</li>
+									<li>
+										<p>Refactor the workflow.</p>
+									</li>
+								</ul>
 							</div>
 							<div class="clearfix"> </div>
 						</div>
@@ -234,9 +253,6 @@
 							</div>
 							<div class="experience-right">
 								<h4>Master of Computer Applications</h4>
-								<p>Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias Lorem
-									ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum iaculis enim, non
-									convallis felis mattis at</p>
 							</div>
 							<div class="clearfix"> </div>
 						</div>
@@ -247,12 +263,69 @@
 							</div>
 							<div class="experience-right">
 								<h4>Bachelor of Science</h4>
-								<p>Itaque earum rerum hic tenetur a sapiente delectus reiciendis maiores alias Lorem
-									ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum iaculis enim, non
-									convallis felis mattis at</p>
 							</div>
 							<div class="clearfix"> </div>
 						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade modal-gallery" id="projects" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+							aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">My Work</h4>
+				</div>
+				<div class="modal-body modal-spa">
+					<div class="gallery">
+						<div class="gallery-row">
+							<div class="col-md-4 gallery-grids">
+								<div class="gallery-w3ls-hover">
+									<a href="images/work5.png" data-lightbox="example-set" data-title="<li>An application that scans the image and converts the binary printed text to structured machine-encoded text.</li>
+										<li>Uses own trained OCR engine to read text from image.</li>
+										<li>Supports Various documents such as: Driving License, Aadhaar Card, Medical Bills etc.</li>
+										<br>
+										<a href='https://monocept.com/solutions/monolens'>link to project  <i class='fa fa-arrow-right' aria-hidden='true'></i></a>
+										">
+										<img src="images/work5.png" class="img-responsive zoom-img" alt="" />
+										<div class="view-caption">
+											<h5>MONOCEPT</h5>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-4 gallery-grids">
+								<div class="gallery-w3ls-hover">
+									<a href="images/work6.png" data-lightbox="example-set" data-title="<li>An application that is also useful to mask the sensitive data on image/document, such as aadhaar number.</li><br>
+										<a href='https://monocept.com/solutions/redact'>link to project  <i class='fa fa-arrow-right' aria-hidden='true'></i></a>
+										">
+										<img src="images/work6.png" class="img-responsive zoom-img" alt="" />
+										<div class="view-caption">
+											<h5>MONOCEPT</h5>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-4 gallery-grids">
+								<div class="gallery-w3ls-hover">
+									<a href="images/work3.jpg" data-lightbox="example-set" data-title="<li>A highly secure transaction-processing platform for payments business. Which can be used in central switch, bank or processor handling card transactions, alternative payments or real-time payments.</li>
+										<li>Migrate the application from monolith to microservices, and make it cloud agnostic.</li>
+										<li>Dockerize the existing application into smaller</li><br>
+										<a href='https://www.ncr.com/financial-services/payments-transaction-processing/authentic'>link to project  <i class='fa fa-arrow-right' aria-hidden='true'></i></a>
+										">
+										<img src="images/work3.jpg" class="img-responsive zoom-img" alt="" />
+										<div class="view-caption">
+											<h5>NCR</h5>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<script src="js/lightbox-plus-jquery.min.js"> </script>
 					</div>
 				</div>
 			</div>
